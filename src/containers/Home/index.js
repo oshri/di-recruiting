@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import LazyLoad from 'react-lazy-load';
 import { Parallax, Background } from 'react-parallax';
 import './Home.css';
+import Signature from '../../components/Signature';
 
 // cvUIv9j5wDg  for contact
 
@@ -15,6 +16,9 @@ class Home extends Component {
                     <div style={{height: 700}}>
                         <div className="text">
                             "Sourcing should be viewed as a business partner, someone who is critical to the success of the business."
+                        </div>
+                        <div className="DonaSignature">
+                            <Signature/>
                         </div>
                     </div>
                 </Parallax>

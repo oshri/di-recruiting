@@ -13,8 +13,10 @@ function Menu(props) {
   return (
     <div className="menu-wrap" style={style}>
       <Link to="/">Home</Link>
-      <Link to="/counter">Counter</Link>
       <Link to="/about">About</Link>
+      <Link to="/stories">Stories</Link>
+      <Link to="/jobs">Jobs</Link>
+      <Link to="/contact">Contact</Link>
     </div>
   );
 }
