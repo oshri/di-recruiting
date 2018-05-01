@@ -1,0 +1,56 @@
+.subscribeForm {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+.form{
+    display: flex;
+    flex-direction: row;
+}
+
+.form input,
+.form button {
+    border-radius: 0;
+    border: 1px solid #9321fe;
+    color: #9321fe;
+    font-size: 13px;
+}
+
+.form input {
+    padding: 8px;
+    width: 233px;
+    margin: 0;
+    font-weight: 300;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    outline: 0;
+    border-right: 0 none;
+}
+
+.form button {
+    color: #9321fe;
+    background-color: #FEC207;
+    letter-spacing: 2px;
+    padding: 8px 15px;
+    margin: 0;
+    font-weight: 300;
+    cursor: pointer;
+    width: auto;
+}
+
+.form button i {
+    font-size: 14px;
+    display: none;
+}
+
+.form button:hover {
+    background-color: #9321fe;
+    color: white;
+}
+
+.subscribeFormMessage {
+    padding-top: 11px;
+    font-size: 12px;
+    line-height: 16px;
+}

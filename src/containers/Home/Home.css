@@ -1,0 +1,14 @@
+.text {
+    background: 'white';
+    padding: 20;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+    font-size: 40px;
+    line-height: 46px;
+    margin-bottom: 22px;
+    color: white;
+    font-weight: 300;
+}

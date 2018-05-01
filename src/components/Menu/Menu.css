@@ -1,0 +1,24 @@
+.menu-wrap {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+  
+  
+a {
+    text-decoration: none;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    line-height: 2.9375rem;
+    font-size: 1rem;
+    color: #5a5b5e;
+    padding: 0 .125rem;
+    margin: 0 .5rem;
+}
+
+a:hover {
+    color: #9321fe;
+}
