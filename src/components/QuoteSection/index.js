@@ -3,7 +3,7 @@ import LazyLoad from 'react-lazy-load';
 import PropTypes from 'prop-types';
 import './QuoteSection.css';
 
-function QuoteSection(props) {
+const QuoteSection = (props) => {
 	const { quote, imageUrl } = props;
 
 	return (
@@ -26,6 +26,6 @@ function QuoteSection(props) {
 			</LazyLoad>
 		</div>
 	);
-}
+};
 
 export default QuoteSection;

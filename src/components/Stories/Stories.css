@@ -1,0 +1,13 @@
+.Stories {
+	position: relative;
+	width: 100%;
+	min-height: 100%;
+	margin: 0px auto;
+	padding: 20px;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: space-between;
+	justify-content: center;
+	align-items: flex-start;
+}

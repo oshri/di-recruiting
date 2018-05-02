@@ -4,6 +4,7 @@ import { Parallax, Background } from 'react-parallax';
 import './Home.css';
 import Signature from '../../components/Signature';
 import QuoteSection from '../../components/QuoteSection';
+import Stories from '../../components/Stories';
 
 // cvUIv9j5wDg  for contact
 // SYTO3xs06fU
@@ -13,7 +14,7 @@ class Home extends Component {
     quote = {
         p1: 'Sourcing is the ',
         p2: 'key to your',
-        p3: 'recruitmentnstrategy'
+        p3: 'recruitmentn strategy'
     };
 
 	render() {
@@ -47,6 +48,7 @@ multi-lingual individuals. I provide personalized and professional service and s
                     <div className="stories content-wrapper">
                         <h4>Stories</h4>
                         <p>What our clients are saying...</p>
+                        <Stories/>
                     </div>
                 </Parallax>
             </div>
@@ -55,8 +57,3 @@ multi-lingual individuals. I provide personalized and professional service and s
 }
 
 export default Home;
-
-
-{/* <LazyLoad height={762} offsetVertical={300}>
-						<img src="https://source.unsplash.com/Q1p7bh3SHj8/400" />
-					</LazyLoad> */}

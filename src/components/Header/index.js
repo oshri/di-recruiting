@@ -5,7 +5,7 @@ import './Header.css';
 import Logo from '../Logo';
 import Menu from '../Menu';
 
-export class Header extends Component {
+class Header extends Component {
 	delta = 5;
     navbarHeight = 50;
     
