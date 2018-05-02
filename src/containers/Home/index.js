@@ -21,28 +21,34 @@ class Home extends Component {
             <div style={this.styles}>
                 <Parallax bgImage={this.splash}>
                     <div style={{height: 700}}>
-                        <div className="text">
-                            "Sourcing should be viewed as a business partner, someone who is critical to the success of the business."
-                        </div>
-                        <div className="DonaSignature">
-                            <Signature/>
+                        <div className="quote">
+                            <div className="text">
+                                <p>"Sourcing should be viewed as a business partner, someone who is critical to the success of the business." <div className="DonaSignature"><Signature/></div></p>
+                            </div>
+                            
                         </div>
                     </div>
                 </Parallax>
+
                 <Parallax blur={{min: -1,max:3}}>
-                <div style={{height: 500}}>
-                    <div className="text">Dynamic Blur</div>
-                </div>
-                </Parallax>
-                <QuoteSection quote={this.quote} imageUrl={this.quoteImageUrl} ></QuoteSection>
-                <Parallax strength={-100}>
-                <div style={{height: 500}}>
-                    <div className="text">Reverse direction</div>
-                </div>
+                    <div className="content-wrapper">
+                        <p>
+                            After many years of working in Analytical and Project Management roles on Wall Street as well as in Customer Success roles at Israeli Fintech and cyber companies, I’ve applied my unique skill set to ensure companies source the best candidates for their open positions. 
+                            <br/>
+                            My services include sourcing and headhunting for mid-level to C-level positions in High-Tech and Finance. I specialize in Sales, Marketing, Product, Operations and Analytical roles. My expertise is in sourcing native English-speaking candidates as well as 
+multi-lingual individuals. I provide personalized and professional service and spot-on sourcing for the role and company culture.
+                        </p>
+                    </div>
                 </Parallax>
 
-                <div style={{height: 500}}>
-                </div>
+                <QuoteSection quote={this.quote} imageUrl={this.quoteImageUrl} ></QuoteSection>
+                
+                <Parallax strength={-100}>
+                    <div className="stories content-wrapper">
+                        <h4>Stories</h4>
+                        <p>What our clients are saying...</p>
+                    </div>
+                </Parallax>
             </div>
 		);
 	}

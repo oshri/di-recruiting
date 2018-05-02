@@ -8,12 +8,12 @@ function QuoteSection(props) {
 
 	return (
 		<div className="Quote">
-            {/* <div className="border-decorator">
+            <div className="border-decorator">
                 <span className="bd lt"></span>
                 <span className="bd rt"></span>
                 <span className="bd lb"></span>
                 <span className="bd rb"></span>
-            </div> */}
+            </div>
             <div className="BoxWrap">
                 <h4>    
                     <span>{quote.p1}</span>
