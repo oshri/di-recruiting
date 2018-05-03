@@ -25,7 +25,6 @@ class Home extends Component {
                             <div className="text">
                                 <p>"Sourcing should be viewed as a business partner, someone who is critical to the success of the business." <div className="DonaSignature"><Signature/></div></p>
                             </div>
-                            
                         </div>
                     </div>
                 </Parallax>
