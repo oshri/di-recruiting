@@ -6,8 +6,7 @@ import Signature from '../../components/Signature';
 import QuoteSection from '../../components/QuoteSection';
 import Stories from '../../components/Stories';
 
-// cvUIv9j5wDg  for contact
-// SYTO3xs06fU
+// Hcfwew744z4
 class Home extends Component {
     splash = "https://source.unsplash.com/xah3Ny20Vbw/400";
     quoteImageUrl = "https://source.unsplash.com/SYTO3xs06fU/400";

@@ -6,6 +6,7 @@ import './App.css';
 import Header from '../Header';
 import Footer from '../Footer';
 import Home from '../../containers/Home';
+import Jobs from '../../containers/Jobs';
 
 class App extends Component {
 
@@ -16,6 +17,7 @@ class App extends Component {
           <Header/>
           <div className="app-body">
             <Route exact path="/" component={Home} />
+            <Route exact path="/jobs" component={Jobs} />
           </div>
           <Footer/>
         </div>
