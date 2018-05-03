@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Parallax, Background } from 'react-parallax';
-import firebase from '../../services/firebase';
+import fb from '../../services/firebase';
 import './Jobs.css';
 
 class Jobs extends Component {
@@ -12,7 +12,7 @@ class Jobs extends Component {
     };
 
     componentDidMount() {
-        // this.jobsCollectionObserver = firebase.firestore().collection('jobs').onSnapshot((snap) => {
+        // this.jobsCollectionObserver = fb.firestore().collection('jobs').onSnapshot((snap) => {
         //   const jobs = {};
         //   snap.forEach((docSnapshot) => {
         //     jobs[docSnapshot.id] = docSnapshot.data();
@@ -37,6 +37,9 @@ class Jobs extends Component {
                         </div>
                     </div>
                 </Parallax>
+                <div className="jobs-container">
+
+                </div>
             </div>
 		);
 	}
